@@ -6,7 +6,17 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import {Nav} from "./component/navbar.jsx";
+import {Jumbo} from "./component/jumbo.jsx";
 
+const Home = () => {
+    return (
+        <>
+        <Nav />  
+        <Jumbo />
+        </>
+
+    )
+}
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.getElementById("app"));
