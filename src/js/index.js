@@ -8,6 +8,7 @@ import "../styles/index.css";
 //import your own components
 import {Nav} from "./component/navbar.jsx";
 import {Jumbo} from "./component/jumbo.jsx";
+// import {Cards} from "./component/cards.jsx"
 
 const Home = () => {
     return (
@@ -15,7 +16,6 @@ const Home = () => {
         <Nav />  
         <Jumbo />
         </>
-
     )
 }
 //render your react application
