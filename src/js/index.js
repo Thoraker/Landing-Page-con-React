@@ -6,8 +6,8 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import {Nav} from "./component/navbar.jsx";
-import {Jumbo} from "./component/jumbo.jsx";
+import { Nav } from "./component/navbar.jsx";
+import { Jumbo } from "./component/jumbo.jsx";
 // import {Cards} from "./component/cards.jsx"
 
 const Home = () => {

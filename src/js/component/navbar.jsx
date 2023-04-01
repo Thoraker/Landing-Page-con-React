@@ -3,7 +3,7 @@ import React from "react";
 //create your first component
 export const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Start Bootstrap
@@ -22,7 +22,7 @@ export const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#">
                 Home
               </a>
             </li>
@@ -37,14 +37,14 @@ export const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
