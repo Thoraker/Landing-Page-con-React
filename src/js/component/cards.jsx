@@ -4,7 +4,7 @@ import React from "react";
 
 export const Card = ({data}) => { 
     return (
-        <div className="card col-3" >
+        <div className="card col-xs-12 col-sm-6 col-md-4 col-xl-3" >
             <img src={data.imgUrl} className="card-img-top w-auto" />
             <div className="card-body">
                 <h5 className="card-title">{data.title}</h5>

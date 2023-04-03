@@ -30,10 +30,10 @@ const Home = () => {
       <Nav />
       <Jumbo />
       <div className="row">
-        <Card data = {data0} />
-        <Card data = {data1} />
-        <Card data = {data2} />
-        <Card data = {data3} />
+          <Card data = {data0} />
+          <Card data = {data1} />
+          <Card data = {data2} />
+          <Card data = {data3} />
       </div>
       <Footer />
     </>
