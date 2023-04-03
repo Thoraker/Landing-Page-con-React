@@ -1,3 +1,4 @@
+import propTypes, { element } from "prop-types";
 import React from "react";
 
 
@@ -14,4 +15,3 @@ export const Card = ({data}) => {
         </div>
     );
 }
-
